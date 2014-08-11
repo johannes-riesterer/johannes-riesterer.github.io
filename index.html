@@ -92,6 +92,13 @@ Shaders are small programs which run directly on the graphic card (gpu).
 <p>
 </p>
 
+<h2>Realtime raytracing on the GPU</h2>
+<iframe src="//player.vimeo.com/video/87389051?title=0&amp;byline=0&amp;portrait=0" width="536" height="336" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p>
+Raytracing is a technique to generate photorealistic images and it is also often used for medical imaging. A detailed description can be found at <a href="http://en.wikipedia.org/wiki/Ray_tracing_(graphics)" title="wikipedia">wikipedia</a>. However it requires considerable processing power. On the other hand it can be parallelized very easily. Since today's graphic cards and in particular their graphics processing units (gpu's) are designed in a highly parallel manner, it is possible to generate realtime animations with this technique. The main problem here is to compute the intersection between  rays and the objects of the scene. Instead of exactly calculating these intersections, one can  approximate them by an algorithm called raymarching with distancebounds. In many cases this  is faster but it also may produce artefacts.
+</p>
+
+
 
         </section>
 
